@@ -1,0 +1,11 @@
+mysql:
+    host: localhost
+    user: compare_everrise
+    passwd: 3b714043292de9ec909dffac612418b4
+    db: batch_script_agent
+    port: 3306
+    
+uvicorn:
+    host: 0.0.0.0
+    port: 60001
+    reload : True

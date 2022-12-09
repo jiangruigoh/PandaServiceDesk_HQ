@@ -1,0 +1,25 @@
+task_agent:
+    task_type: daily
+    store_code: EVERRISEHQ
+    database_name: batch_script_agent
+    base_url: http://localhost:60001/
+    remote_base_url: http://52.163.112.202:60001/
+
+sqldump_cfg:
+    dump_path: /media/data/fastAPI/PythonScriptAgent/SQLDUMP_files
+    hostname: localhost
+    port: 3306
+    username: compare_everrise
+    passwd: 3b714043292de9ec909dffac612418b4
+
+zip_cfg:
+    zip_store_path: /media/data/fastAPI/PythonScriptAgent/SQLDUMP_files/compress
+    unzip_store_path: /media/data/fastAPI/PythonScriptAgent/SQLDUMP_files/decompress
+  
+sftp_cfg:
+    hostname: 52.163.112.202
+    username: pythonscriptagent
+    password: Python@3323966
+    sftp_remote_path: /media/estore/PythonScriptAgent/SQLDUMP_files/compress/
+    port: 22
+

@@ -1,0 +1,16 @@
+click
+fastapi
+greenlet
+h11
+pydantic
+PyMySQL
+PyYAML
+SQLAlchemy
+starlette
+typing-extensions
+uvicorn
+requests
+pysftp
+mysql-connector-python
+gunicorn
+python-dotenv
